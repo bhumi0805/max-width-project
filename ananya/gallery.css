@@ -1,0 +1,534 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-1{
+    background-color: #002147;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+.main-1 span{
+    color: white;
+}
+.main-1 .span-2{
+    color: yellow;
+}
+.main-1 button{
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 30px;
+    font-weight: bolder;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.main-1 i{
+    color: white;
+}
+
+
+
+
+
+
+  /* navbar css */
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    align-items: center;
+}
+.logo{
+    height: 50px;
+}
+.container{
+    margin: 0 auto;
+    width: 80%;
+}
+nav a{
+    text-decoration: none;
+    color: #002147;
+    font-size: 17px;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.show a{
+    color: white;
+}
+.links{
+    display: flex;
+    gap: 40px;
+    position: relative;
+}
+.show{
+    display: none;
+
+}
+.hide:hover .show{
+    display: flex;
+    position: absolute;
+    top: 50px;
+    line-height: 30px;
+    z-index: 2000;
+    color: white;
+    background-color: #002147;
+    padding: 20px;
+}
+nav li{
+    font-size: 10px;
+    color: black;
+    list-style: none;
+}
+.hide-2{
+    display: none;
+}
+.show-2:hover .hide-2{
+    display: block;
+    
+    position:absolute;
+    left: 150px;
+   
+   
+    line-height: 20px;
+}
+.hide-3{
+    display: none;
+}
+.show-3:hover .hide-3{
+    display: block;
+    
+    position:absolute;
+    left: 150px;
+   top: 0px;
+   
+    line-height: 20px;
+}
+
+
+
+
+/* .section1 */
+.section1{
+    background: linear-gradient(rgba(0, 0, 0, 0.659),rgba(0, 0, 0, 0.522)),url(./images/man-is-working-with-smart-phone-laptop-his-office_38391-385.avif) center center/ cover fixed;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    height: 70vh;
+}
+.section1 h1{
+    color: white;
+    text-align: center;
+   
+    font-size: 70px;
+    text-transform:uppercase;
+    text-align: center;
+    justify-content: center;
+    padding-top: 180px;
+   display: flex;
+   align-items: center;
+}
+
+
+
+.section-2{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.btn-67,
+.btn-67 *,
+.btn-67 :after,
+.btn-67 :before,
+.btn-67:after,
+.btn-67:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.btn-67 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #002147;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 17px;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+}
+.btn-67:disabled {
+  cursor: default;
+}
+.btn-67:-moz-focusring {
+  outline: auto;
+}
+.btn-67 svg {
+  display: block;
+  vertical-align: middle;
+}
+.btn-67 [hidden] {
+  display: none;
+}
+.btn-67 {
+  box-shadow: inset 0 0 0 2px #fff;
+  box-sizing: border-box;
+  display: block;
+  font-weight: 900;
+  padding: 1.2rem 3rem;
+  position: relative;
+  text-transform: uppercase;
+  transition: color 0.1s linear;
+}
+.btn-67:hover {
+  color: #fff;
+  transition: color 0.1s linear 1s;
+}
+.btn-67:after,
+.btn-67:before {
+  content: "";
+  height: 0;
+  position: absolute;
+  width: 0;
+}
+.btn-67:before {
+  border-right: var(--border);
+  border-top: var(--border);
+  left: 0;
+  top: 0;
+}
+.btn-67:hover:before {
+  --border: 4px solid #08e7ea;
+  -webkit-animation: border-top-and-right 1s forwards;
+  animation: border-top-and-right 1s forwards;
+}
+.btn-67:after {
+  border-bottom: var(--border);
+  border-left: var(--border);
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+.btn-67:hover:after {
+  --border: 4px solid   #08e7ea;
+  -webkit-animation: border-bottom-and-left 1s 1s forwards;
+  animation: border-bottom-and-left 1s 1s forwards;
+}
+@-webkit-keyframes border-top-and-right {
+  0% {
+    height: 0;
+    width: 0;
+  }
+  50% {
+    height: 0;
+    width: 100%;
+  }
+  to {
+    height: 100%;
+    width: 100%;
+  }
+}
+@keyframes border-top-and-right {
+  0% {
+    height: 0;
+    width: 0;
+  }
+  50% {
+    height: 0;
+    width: 100%;
+  }
+  to {
+    height: 100%;
+    width: 100%;
+  }
+}
+@-webkit-keyframes border-bottom-and-left {
+  0% {
+    height: 0;
+    width: 0;
+  }
+  50% {
+    height: 0;
+    width: 100%;
+  }
+  to {
+    height: 100%;
+    width: 100%;
+  }
+}
+@keyframes border-bottom-and-left {
+  0% {
+    height: 0;
+    width: 0;
+  }
+  50% {
+    height: 0;
+    width: 100%;
+  }
+  to {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.btn-34,
+.btn-34 *,
+.btn-34 :after,
+.btn-34 :before,
+.btn-34:after,
+.btn-34:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.btn-34 {
+    
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #002147;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 17px;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0;
+  margin-top: 20px;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+  text-transform: uppercase;
+}
+.btn-34:disabled {
+  cursor: default;
+}
+.btn-34:-moz-focusring {
+  outline: auto;
+}
+.btn-34 svg {
+  display: block;
+  vertical-align: middle;
+}
+.btn-34 [hidden] {
+  display: none;
+}
+.btn-34 {
+  border-radius: 99rem;
+  border-width: 2px;
+  overflow: hidden;
+  padding: 0.8rem 3rem;
+  position: relative;
+}
+.btn-34:hover {
+  transform: scale(1.1);
+}
+.btn-34 span {
+  font-weight: 900;
+  mix-blend-mode: difference;
+}
+.btn-34:before {
+  aspect-ratio: 1;
+  background: #fff;
+  border-radius: 50%;
+  content: "";
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: width 0.2s;
+  width: 0;
+}
+.btn-34:hover:before {
+  width: 100%;
+}
+
+.s2-bb-1{
+    display: flex;
+    gap: 40px;
+}
+
+
+
+  .section2-row{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
+    text-align: center;
+  }
+  .section2-row img{
+    height: 400px;
+    width: 400px;
+  }
+  .section2-row p{
+    font-size: 22px;
+    color: black;text-align: center;
+    text-transform: capitalize;
+    font-weight: bolder;
+  }
+
+  footer{
+    margin-top: 0px;
+    background-color: #002147;
+    padding-top: 50px;
+
+}
+
+.footer-1 h3{
+    font-size: 24px;
+    text-transform: capitalize;
+    color: white;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: solid 2px rgba(135, 132, 132, 0.714);
+}
+.footer-1{
+    display: flex;
+    justify-content: space-between;
+    line-height: 40px;
+}
+.footer-1 a{
+    text-decoration: none;
+    text-transform: capitalize;
+    display: block;
+    color: black;
+    color: white;
+}
+.footer-1 p{
+    width: 300px;
+    color: white;
+}
+footer i{
+    font-size: 25px;
+    color: yellow;
+}
+.footer-col{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.footer2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+.copy{
+
+    display: flex;
+    justify-self: center;
+    gap: 20px;
+}
+
+@media screen and (max-width:767px) {
+    .section1{
+        background: linear-gradient(rgba(0, 0, 0, 0.659),rgba(0, 0, 0, 0.522)),url(./images/book.jpg) center center/ cover fixed;
+        /* background-repeat: no-repeat;
+        background-size: cover; */
+        height: 35vh;
+        /* margin-top: 100px; */
+    }
+    .section1 h1{
+        color: white;
+        text-align: center;
+       
+        font-size: 35px;
+        text-transform: uppercase;
+        text-align: center;
+        justify-content: center;
+        padding-top: 120px;
+       display: flex;
+       align-items: center;
+    }
+    
+   
+    .section-2{
+        padding-top: 50px;
+    
+    }
+    .bar-menu{
+        display: block;
+      
+    }
+    .links{
+        display: none;
+    }
+    .bar-menu-show{
+        display: none;
+       
+    }
+    .bar-menu:hover .bar-menu-show{
+        display: block;
+        position: absolute;
+        top: 80px;
+        right: 50px;
+        background-color: palegoldenrod;
+        z-index: 5000px;
+       
+    }
+    .section-1 h1{
+   
+        
+       
+        font-size: 15px;
+       
+       
+    }
+    .section2 h1{
+        text-align: center;
+        color: #002147;
+        margin-bottom: 50px;
+        font-size: 15px;
+    
+    }
+    .section2-row{
+        display: flex;
+       flex-direction: column;
+       gap: 100px;
+      }
+      .section2-row img{
+        height: 200px;
+        width: 200px;
+      }
+      .footer-1{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        line-height: 40px;
+    }
+    .main-1{
+        background-color: #002147;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    
+    }
+    .section2-row p{
+        font-size: 17px;
+        
+      }
+      .s2-bb-1{
+        display: flex;
+        gap: 20px;
+    }
+}    
+    
+      
+      
